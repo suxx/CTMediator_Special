@@ -17,13 +17,13 @@
 
 - (NSDictionary*)specialReformerWithOriginData:(NSDictionary*)data {
     
-    return[self performTarget:@"Special"action:@"specialReformerWithOriginData"params:data shouldCacheTarget:NO];
+    return[self performTarget:@"Special" action:@"specialReformerWithOriginData"params:data shouldCacheTarget:NO];
     
 }
 
 - (NSDictionary *)specialReformer {
     
-    return[self performTarget:@"Special"action:@"specialReformer"params:nil shouldCacheTarget:NO];
+    return[self performTarget:@"Special" action:@"specialReformer"params:nil shouldCacheTarget:NO];
     
 }
 
