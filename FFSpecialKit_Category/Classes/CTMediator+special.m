@@ -11,7 +11,7 @@
 @implementation CTMediator (special)
 - (UIViewController*)specialDetailController {
     
-    return [self performTarget:@"Special"action:@"specialDetailViewController"params:nil shouldCacheTarget:NO];
+    return [self performTarget:@"Special" action:@"specialDetailViewController"params:nil shouldCacheTarget:NO];
     
 }
 
